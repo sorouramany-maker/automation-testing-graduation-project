@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12fbc0ec-e4c6-4d5a-8186-9c41f1fac9f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/AddEmployeePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/AdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/FooterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/PIMPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/utils/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/utils/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/AdminTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/FooterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/PIMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/SidebarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/resources/config.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../automation-testing-graduation-project" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3M0zY3Mwt9HM3n1wUczQUeOpxkT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SearchEverywhere.PersistedScope.FileSearchEverywhereContributor": "Project Files",
+    "TestNG.AdminTest.executor": "Run",
+    "TestNG.FooterTest.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.PIMTest (1).executor": "Run",
+    "TestNG.PIMTest.executor": "Run",
+    "TestNG.SidebarTest.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Amany/Desktop/automation-testing-graduation-project/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.SidebarTest">
+    <configuration name="AdminTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-graduation-project." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orangehrm.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orangehrm.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="orangehrm.com.tests.AdminTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FooterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-graduation-project." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orangehrm.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orangehrm.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="orangehrm.com.tests.FooterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-graduation-project." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orangehrm.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orangehrm.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="orangehrm.com.tests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PIMTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-graduation-project." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orangehrm.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orangehrm.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="orangehrm.com.tests.PIMTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SidebarTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-testing-graduation-project." />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orangehrm.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orangehrm.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="orangehrm.com.tests.SidebarTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SidebarTest" />
+        <item itemvalue="TestNG.FooterTest" />
+        <item itemvalue="TestNG.AdminTest" />
+        <item itemvalue="TestNG.PIMTest (1)" />
+        <item itemvalue="TestNG.LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12fbc0ec-e4c6-4d5a-8186-9c41f1fac9f2" name="Changes" comment="" />
+      <created>1794502317124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794502317124</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/org/example/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/PIMTest.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
