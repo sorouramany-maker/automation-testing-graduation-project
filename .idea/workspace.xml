@@ -4,19 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12fbc0ec-e4c6-4d5a-8186-9c41f1fac9f2" name="Changes" comment="commit and push">
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/dataproviders/TestDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/resources/testdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/AddEmployeePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/PIMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/PIMPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/AdminTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/PIMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/PIMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/SidebarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/SidebarTest.java" afterDir="false" />
+    <list default="true" id="12fbc0ec-e4c6-4d5a-8186-9c41f1fac9f2" name="Changes" comment="Add Allure report and finalize automation tests">
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/allure-maven.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/css/apache-maven-fluido-2.0.0-M9.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/behaviors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/categories.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/packages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/suites.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/2c63660907a8578f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/2ebe6355e2f778bb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/36822443e8201b8d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/439edc5528492b61.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/5945a7ca497f5eb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/5bd7cbe43893c25b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/6047fa996fc36089.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/78a291e678c3b4f5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/7c9157ef8c00f83e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/955914425845128.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/a0479327c26b8127.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/c166d3c29440e4f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/c922a08a230da601.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/cb13f286ed5cd384.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/dbd412d54eca64c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/de527818bb4d58a1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/eb0f93cb644334ae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/ebc572cad981589a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/f488e1f6da341567.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/f61079d05003d1e6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/f87307891f72358e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/test-cases/fc3b4f1b6af2212e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/data/timeline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/export/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/history/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/history/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/history/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/history/history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/history/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/accessories-text-editor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/apache-maven-project-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/application-certificate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/contact-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/document-properties.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/drive-harddisk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/fix.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/icon_error_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/icon_help_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/icon_info_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/icon_success_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/icon_warning_sml.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/image-x-generic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/internet-web-browser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/logos/build-by-maven-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/logos/build-by-maven-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/logos/maven-feather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/network-server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/package-x-generic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/profiles/pre-release.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/profiles/retired.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/profiles/sandbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/remove.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/update.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/images/window-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/js/apache-maven-fluido-2.0.0-M9.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/plugin/behaviors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/plugin/packages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/plugin/screen-diff/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/plugin/screen-diff/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/duration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/environment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/severity.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/suites.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/allure-report/widgets/summary.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +304,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit and push" />
     <MESSAGE value="push" />
-    <option name="LAST_COMMIT_MESSAGE" value="push" />
+    <MESSAGE value="Add Allure report and finalize automation tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Allure report and finalize automation tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
