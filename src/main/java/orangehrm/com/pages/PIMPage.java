@@ -45,11 +45,22 @@ public class PIMPage {
                 driver, Duration.ofSeconds(waitTime));
     }
 
+
     public void openPIM() {
+
+        if (driver.getCurrentUrl().contains("/pim/viewEmployeeList")) {
+            return;
+        }
+
         wait.until(
                 ExpectedConditions.elementToBeClickable(pimMenu)
         ).click();
+
+        wait.until(
+                ExpectedConditions.urlContains("/pim/viewEmployeeList")
+        );
     }
+
 
     // TC04: Search for existing employee
     public void searchEmployee(String employeeName) {
@@ -76,13 +87,19 @@ public class PIMPage {
                 ExpectedConditions.elementToBeClickable(searchButton)
         ).click();
     }
+        public boolean isEmployeeDisplayed(String employeeName) {
 
-    public boolean isEmployeeDisplayed(String employeeName) {
-        return wait.until(
-                ExpectedConditions.visibilityOfElementLocated(resultsTable)
-        ).getText().contains(employeeName);
+        return wait.until(driver -> {
+
+            WebElement table = driver.findElement(resultsTable);
+
+            if (!table.isDisplayed()) {
+                return false;
+            }
+
+            return table.getText().contains(employeeName);
+        });
     }
-
     // TC05: Search for non-existing employee
     public void searchNonExistingEmployee(String employeeName) {
 

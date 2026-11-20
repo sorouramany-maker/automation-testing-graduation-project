@@ -4,29 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12fbc0ec-e4c6-4d5a-8186-9c41f1fac9f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/AddEmployeePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/AdminPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/FooterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/PIMPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/utils/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/utils/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/AdminTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/FooterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/PIMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/SidebarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/resources/config.properties" afterDir="false" />
+    <list default="true" id="12fbc0ec-e4c6-4d5a-8186-9c41f1fac9f2" name="Changes" comment="commit and push">
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/dataproviders/TestDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/resources/testdata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/AddEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/PIMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/orangehrm/com/pages/PIMPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/AdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/PIMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/PIMTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/SidebarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/SidebarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +33,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../automation-testing-graduation-project" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sorouramany-maker&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sorouramany-maker/automation-testing-graduation-project..git&quot;,
+    &quot;accountId&quot;: &quot;94000d75-b030-4412-aa0d-273de9d0b2bb&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3M0zY3Mwt9HM3n1wUczQUeOpxkT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,12 +63,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Maven.automation-testing-graduation-project [-U...].executor": "Run",
+    "Maven.automation-testing-graduation-project [io.qameta.allure:allure-maven:3.1.0:report].executor": "Run",
+    "Maven.automation-testing-graduation-project [io.qameta.allure:allure-maven:report].executor": "Run",
+    "Maven.automation-testing-graduation-project [test].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SearchEverywhere.PersistedScope.FileSearchEverywhereContributor": "Project Files",
     "TestNG.AdminTest.executor": "Run",
+    "TestNG.C:/Users/Amany/Desktop/automation-testing-graduation-project/src/test/resources/testng.xml.executor": "Run",
     "TestNG.FooterTest.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
     "TestNG.PIMTest (1).executor": "Run",
@@ -84,7 +91,14 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SidebarTest">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn io.qameta.allure:allure-maven:report" />
+      <command value="mvn io.qameta.allure:allure-maven:3.1.0:report" />
+      <command value="mvn -U io.qameta.allure:allure-maven:3.1.0:report" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.FooterTest">
     <configuration name="AdminTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-testing-graduation-project." />
       <extension name="coverage">
@@ -136,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PIMTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PIMTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-testing-graduation-project." />
       <extension name="coverage">
         <pattern>
@@ -172,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SidebarTest" />
         <item itemvalue="TestNG.FooterTest" />
-        <item itemvalue="TestNG.AdminTest" />
-        <item itemvalue="TestNG.PIMTest (1)" />
+        <item itemvalue="TestNG.PIMTest" />
+        <item itemvalue="TestNG.SidebarTest" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.AdminTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +215,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit and push" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -208,11 +227,6 @@
           <url>file://$PROJECT_DIR$/../automation-testing-graduation-project/src/main/java/org/example/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../automation-testing-graduation-project/src/test/java/orangehrm/com/tests/PIMTest.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
